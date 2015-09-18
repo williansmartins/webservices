@@ -2,7 +2,7 @@ package wsServer;
 import javax.jws.WebService;
 
 
-@WebService(endpointInterface = "ws.CalculadoraServer")
+@WebService(endpointInterface = "wsServer.CalculadoraServer")
 public class CalculadoraServerImpl implements CalculadoraServer {
          
     public float soma(float num1, float num2) {
